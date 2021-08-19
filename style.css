@@ -59,19 +59,40 @@ body {
     color: #1d3557;
 }
 
-/* Hero menu */
-.food__menu__card{
-    width: 100%;
+
+
+/*  Menu Style */
+.explore__menu__container{
+    margin-top: 50px;
 }
 
-.food__image{
-    width: 100%;
+.explore__menu__text {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+    color: #1d3557;
 }
 
+.food__menu__card {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 14px;
+}
 
+.food__image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
 
-
-
+.food__menu__card__description {
+    padding: 15px;
+}
+.explore__menu__view__more
+{
+    display: flex;
+    justify-content: center;
+}
 @media (min-width:768px)
 /* For table devices    */
 
